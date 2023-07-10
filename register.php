@@ -17,7 +17,7 @@ if(isset($_SESSION["user"])) {
 </div>
 <div class="navbar">
     
-    <a href="booking_page.html">Bookings</a>
+    <a href="booking_page.php">Bookings</a>
     <a href="about.php">About</a>
     <a href="contact.php">Contact</a>
     <a href="login.php">Login</a>
