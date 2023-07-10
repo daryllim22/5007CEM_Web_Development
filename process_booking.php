@@ -46,7 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $conn->close();
 } else {
     // Redirect to the booking page if accessed directly without form submission
-    header('Location: booking_page.html');
+    header('Location: booking_page.php');
     exit;
 }
 ?>
